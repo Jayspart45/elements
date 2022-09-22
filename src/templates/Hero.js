@@ -18,6 +18,10 @@ export default function Hero() {
             window.location.href = '/Video';
         }, 2000);
     }
+    function updatepercentage3() {
+        console.log('Working');
+        window.location.reload();
+    }
 
     const fetchData = async () => {
         const api = 'https://p2nzd3xj7i.execute-api.ap-south-1.amazonaws.com/dev/element/get';
@@ -36,10 +40,12 @@ export default function Hero() {
         console.log(percent);
         function responsefunct() {
             console.log('response');
-            if (percent == 2) {
+            if (percent == 1) {
                 updatepercentage();
-            } else if (percent == 1) {
+            } else if (percent == 0) {
                 updatepercentage2();
+            } else if (percent == 2) {
+                updatepercentage3();
             }
         }
         responsefunct();
