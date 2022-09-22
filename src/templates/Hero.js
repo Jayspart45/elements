@@ -7,6 +7,7 @@ export default function Hero() {
     function updatepercentage() {
         console.log('Working');
         setpercent((percent) => (percent = 50));
+        window.location.reload();
     }
     function updatepercentage2() {
         console.log('Working');
@@ -14,8 +15,8 @@ export default function Hero() {
         let circle = document.getElementById('circle');
 
         setTimeout(() => {
-            window.location.href = './Video';
-        }, 3000);
+            window.location.href = 'https://www.youtube.com/watch?v=2PnmLF9YQRI';
+        }, 2000);
     }
 
     const fetchData = async () => {
