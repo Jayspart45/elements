@@ -15,8 +15,7 @@ export default function Hero() {
         let circle = document.getElementById('circle');
 
         setTimeout(() => {
-            window.location.href =
-                'https://dashboard.render.com/static/srv-ccm3mm1gp3jo2ki8dc60/deploys/dep-ccm4dp1gp3jo2ki8k270';
+            window.location.href = '/Video';
         }, 2000);
     }
 

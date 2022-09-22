@@ -14,7 +14,7 @@ export default function Admin() {
                     <Route path="/" element={<Finger />} />
 
                     <Route exact path="/hero" element={<Hero />} />
-                    {/* <Route exact path="/Video" element={<Video />} /> */}
+                    <Route exact path="/Video" element={<Video />} />
                 </Routes>
             </Router>
         </div>
