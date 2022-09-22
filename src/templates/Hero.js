@@ -40,11 +40,11 @@ export default function Hero() {
         console.log(percent);
         function responsefunct() {
             console.log('response');
-            if (percent == 1) {
+            if (percent == 2) {
                 updatepercentage();
-            } else if (percent == 0) {
+            } else if (percent == 1) {
                 updatepercentage2();
-            } else if (percent == 2) {
+            } else if (percent == 3) {
                 updatepercentage3();
             }
         }
