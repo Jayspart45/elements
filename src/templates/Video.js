@@ -4,8 +4,8 @@ import video from './images/video.mp4';
 
 export default function Video() {
     return (
-        <div>
-            <video width="300px" height="300px" autoPlay loop controls src={video} />
+        <div className="video">
+            <video autoPlay loop controls src={video}></video>
         </div>
     );
 }
